@@ -16,6 +16,8 @@
 spring:
   application:
     name: tester
+  cache:
+    type: none
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:h2:mem:tester;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;MULTI_THREADED=FALSE
