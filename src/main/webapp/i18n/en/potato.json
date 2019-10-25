@@ -1,0 +1,23 @@
+{
+  "testerApp": {
+    "potato": {
+      "home": {
+        "title": "Potatoes",
+        "createLabel": "Create a new Potato",
+        "createOrEditLabel": "Create or edit a Potato",
+        "notFound": "No Potatoes found"
+      },
+      "created": "A new Potato is created with identifier {{ param }}",
+      "updated": "A Potato is updated with identifier {{ param }}",
+      "deleted": "A Potato is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Potato {{ id }}?"
+      },
+      "detail": {
+        "title": "Potato"
+      },
+      "shape": "Shape",
+      "size": "Size"
+    }
+  }
+}
